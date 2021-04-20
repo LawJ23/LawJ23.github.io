@@ -114,6 +114,15 @@ h3 {
 .resume .base .contact div:hover i {
   color: #E8DDB5;
 }
+#boxxa {
+    
+  border-radius: 2px;
+  width: 80px;
+  height: 80px;
+  line-height: 60px;
+  
+
+}
 .resume .base .contact div i {
   color: #8d9e78;
   width: 20px;
@@ -136,7 +145,7 @@ h3 {
   left: 0;
   transition-duration: 0.3s;
 }
-.resume .base .follow .box {
+.resume .base .follow .box  {
   text-align: center;
   vertical-align: middle;
 }
