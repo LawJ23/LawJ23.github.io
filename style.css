@@ -34,7 +34,7 @@ h3 {
 
 .resume {
   width: 870px;
-  background: #f7db9bab;
+  background: #788AA3;
   margin: 20px auto;
   border: 1px solid #fff;
   box-shadow: 0 0 3px 2px #8e8686;
@@ -71,7 +71,7 @@ h3 {
   background: rgba(238, 238, 238, 0.6);
 }
 .resume .base .profile {
-  background: #cca944;
+  background: #666A86;
   padding: 30px 15px 5px 15px;
   margin: -30px -15px 45px -15px;
   position: relative;
@@ -80,7 +80,7 @@ h3 {
 .resume .base .profile::after {
   content: "";
   position: absolute;
-  background: #cca944;
+  background: #666A86;
   width: 100%;
   height: 30px;
   bottom: -15px;
@@ -106,13 +106,13 @@ h3 {
   line-height: 24px;
 }
 .resume .base .contact div a:hover {
-  color: #e07a5f;
+  color: #E8DDB5;
 }
 .resume .base .contact div a:hover span::after {
   width: 100%;
 }
 .resume .base .contact div:hover i {
-  color: #e07a5f;
+  color: #E8DDB5;
 }
 .resume .base .contact div i {
   color: #8d9e78;
@@ -129,7 +129,7 @@ h3 {
 .resume .base .contact div span::after {
   content: "";
   position: absolute;
-  background: #e07a5f;
+  background: #E8DDB5;
   height: 1px;
   width: 0;
   bottom: 0;
@@ -145,7 +145,7 @@ h3 {
   vertical-align: text-bottom;
 }
 .resume .base .follow .box a:hover i {
-  background: #e07a5f;
+  background: #E8DDB5;
   border-radius: 5px;
   transform: rotate(45deg) scale(0.8);
 }
@@ -155,7 +155,7 @@ h3 {
 .resume .base .follow .box i {
   display: inline-block;
   font-size: 30px;
-  background: #cca944;
+  background: #788AA3;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -220,7 +220,7 @@ h3 {
   animation: circle 1.2s infinite;
 }
 .resume .func .work ul li:hover span, .resume .func .edu ul li:hover span {
-  color: #e07a5f;
+  color: #E8DDB5;
 }
 @keyframes circle {
   from {
@@ -284,11 +284,11 @@ h3 {
   transition-duration: 0.3s;
 }
 .resume .func .skills-prog ul li:hover {
-  color: #e07a5f;
+  color: #E8DDB5;
 }
 .resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: #e07a5f;
-  box-shadow: 0 0 0 1px #e07a5f;
+  background: #E8DDB5;
+  box-shadow: 0 0 0 1px #E8DDB5;
 }
 .resume .func .skills-prog ul li span {
   display: block;
@@ -318,7 +318,7 @@ h3 {
   position: relative;
 }
 .resume .func .skills-soft ul li:hover svg .cbar {
-  stroke: #cca944;  stroke-width: 4px;
+  stroke: #E8DDB5;  stroke-width: 4px;
 }
 .resume .func .skills-soft ul li:hover span, .resume .func .skills-soft ul li:hover small {
   transform: scale(1.2);
