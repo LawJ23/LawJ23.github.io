@@ -235,18 +235,31 @@ h3 {
 .circuit {
   background-color: #00b497;
   background-image: url("download.svg");
-}Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 .progress {
-  display: inline-block;
+  border-radius: 20px;
   width: 400px;
   height: 50px;
   margin: 35px;
-  border-radius: 20px;
-  background: #f9f9f9;
+  display: inline-block;
+  
 }
-
+progress::-webkit-progress-bar {
+  
+  background:#E8DDB5;
+}
+progress::-webkit-progress-value {
+  background-color: #00b497;
+  background-image: url("download.svg");
+}
+progress::-moz-progress-bar {
+  background:#E8DDB5;
+}
+progress::-moz-progress-value {
+  background-color: #00b497;
+  background-image: url("download.svg");
+}
 .bar {
   border-radius: 20px;
   width: 0%;
