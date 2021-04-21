@@ -11,6 +11,7 @@ body, html {
 }
 
 a {
+  text-align: center;
   text-decoration: none;
   color: #555;
   display: block;
@@ -22,7 +23,15 @@ ul {
   padding: 0;
 }
 
+h2 {
+  text-align: center;
+  color: #3d405b;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 18px;
+}
 h3 {
+  
   color: #3d405b;
   margin: 10px 0;
   text-transform: uppercase;
@@ -106,12 +115,7 @@ h3 {
   color: #E8DDB5;
 }
 #boxxa {
-  border-radius: 0px;
-  width: 80px;
   height: 80px;
-  line-height: 50px;
-  
-  
 
 }
 .resume .base .contact div i {
@@ -146,7 +150,7 @@ h3 {
 .resume .func:hover > div:hover h3 {
   letter-spacing: 1.6px;
 }
-.resume .func:hover > div:hover h3 i {
+.resume .func:hover > div:hover h3 i   {
   transform: scale(1.2);
 }
 .resume .func h3 {
