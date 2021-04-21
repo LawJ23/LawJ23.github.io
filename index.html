@@ -69,52 +69,52 @@
         <ul>
           <li data-percent="96"><span>HTML</span>
             <div class="progress">
-               <progress id="avancement" class="progressBar" value="90" max="100"></progress>
+               <progress id="avancement" class="circuit" value="90" max="100"></progress>
             </div>
           </li>
           <li data-percent="96"><span>CSS</span>
             <div class="progress">
-               <progress id="avancement" class="progressBar" value="75" max="100"></progress>
+               <progress id="avancement" class="circuit" value="75" max="100"></progress>
             </div>
           </li>
           <li data-percent="96"><span>Java</span>
             <div class="progress">
-               <progress id="avancement" class="progressBar" value="85" max="100"></progress>
+               <progress id="avancement" class="circuit" value="85" max="100"></progress>
             </div>
           </li>
           <li data-percent="96"><span>JavaScript</span>
             <div class="progress">
-               <progress id="avancement" class="progressBar" value="40" max="100"></progress>
+               <progress id="avancement" class="circuit" value="40" max="100"></progress>
             </div>
           </li>
           <li data-percent="96"><span>PHP</span>
             <div class="progress">
-               <progress id="avancement" class="progressBar" value="55" max="100"></progress>
+               <progress id="avancement" class="circuit" value="75" max="100"></progress>
             </div>
           </li>
           <li data-percent="96"><span>C++</span>
             <div class="progress">
-               <progress id="avancement" class="progressBar" value="80" max="100"></progress>
+               <progress id="avancement" class="circuit" value="80" max="100"></progress>
             </div>
           </li>
           <li data-percent="96"><span>C</span>
             <div class="progress">
-               <progress id="avancement" class="progressBar" value="70" max="100"></progress>
+               <progress id="avancement" class="circuit" value="70" max="100"></progress>
             </div>
           </li>
           <li data-percent="96"><span>mySQL</span>
             <div class="progress">
-               <progress id="avancement" class="progressBar" value="90" max="100"></progress>
+               <progress id="avancement" class="circuit" value="90" max="100"></progress>
             </div>
           </li>
           <li data-percent="96"><span>Android</span>
             <div class="progress">
-               <progress id="avancement" class="progressBar" value="55" max="100"></progress>
+               <progress id="avancement" class="circuit" value="55" max="100"></progress>
             </div>
           </li>
           <li data-percent="96"><span>Microsoft Office</span>
             <div class="progress">
-               <progress id="avancement" class="progressBar" value="95" max="100"></progress>
+               <progress id="avancement" class="circuit" value="95" max="100"></progress>
             </div>
           </li>
         </ul>
@@ -127,5 +127,22 @@
     </div>
   </div>
     
+<script>
+  const bars = document.querySelectorAll('.bar');
+const progress = document.querySelectorAll('.progress');
+
+bars.forEach((bar, index) => {
+  const randomWidth = Math.floor((Math.random() * 65) + 10);
+  bar.style.width = `${randomWidth}%`;
+
+  progress[index].addEventListener('mouseover', () => {
+    const randomTiming = Math.floor((Math.random() * 2) + 2);
+    console.log(randomTiming);
+    bar.style.transitionDuration = `${randomTiming}s`;
+    bar.style.width = '100%';
+  });
+})
+</script>
+  
   </body>
   </html>
