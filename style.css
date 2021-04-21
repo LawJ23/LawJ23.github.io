@@ -228,13 +228,7 @@ h3 {
 .resume .func .skills-prog {
   clear: both;
 }
-.resume .func .skills-prog ul li:hover {
-  color: #E8DDB5;
-}
-.resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: #E8DDB5;
-}
-.resume .func .skills-prog ul li span {
+.resume .func .skills-prog ul li span  {
   display: block;
   width: 120px;
 }
