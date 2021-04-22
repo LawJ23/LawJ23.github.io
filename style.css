@@ -96,43 +96,11 @@ h3 {
 	font-size: 1.5em;
 	font-weight: normal;
 }
-.resume .base .contact div {
-	line-height: 24px;
-}
-.resume .base .contact div a:hover {
-	color: #E8DDB5;
-}
-.resume .base .contact div a:hover span::after {
-	width: 100%;
-}
-.resume .base .contact div:hover i {
-	color: #E8DDB5;
-}
+
 .boxxa {
 	height: 80px;
 }
-.resume .base .contact div i {
-	color: #8d9e78;
-	width: 20px;
-	height: 20px;
-	font-size: 20px;
-	text-align: center;
-	margin-right: 15px;
-	transition-duration: 0.3s;
-}
-.resume .base .contact div span {
-	position: relative;
-}
-.resume .base .contact div span::after {
-	content: "";
-	position: absolute;
-	background: #E8DDB5;
-	height: 1px;
-	width: 0;
-	bottom: 0;
-	left: 0;
-	transition-duration: 0.3s;
-}
+
 .resume .func {
 	width: 645px;
 	padding: 30px 25px;
@@ -225,20 +193,9 @@ h3 {
 .resume .func .skills-prog {
 	clear: both;
 }
-.resume .func .skills-prog ul li span {
-	display: block;
-	width: 120px;
-}
 .circuit {
 	background-color: #00b497;
 	background-image: url("download.svg");
-}
-.progress {
-	border-radius: 20px;
-	width: 400px;
-	height: 50px;
-	margin: 35px;
-	display: inline-block;
 }
 progress::-webkit-progress-bar {
 	background: #E8DDB5;
@@ -254,47 +211,7 @@ progress::-moz-progress-value {
 	background-color: #00b497;
 	background-image: url("download.svg");
 }
-.bar {
-	border-radius: 20px;
-	width: 0%;
-	height: 100%;
-	transition: width;
-	transition-duration: 1s;
-	transition-timing-function: cubic-bezier(0.36, 0.55, 0.63, 0.48);
-}
-.resume .func .skills-soft ul {
-	justify-content: space-between;
-}
-.resume .func .skills-soft ul li {
-	position: relative;
-}
-.resume .func .skills-soft ul li:hover svg .cbar {
-	stroke: #E8DDB5;
-	stroke-width: 4px;
-}
-.resume .func .skills-soft ul li:hover span, .resume .func .skills-soft ul li:hover small {
-	transform: scale(1.2);
-}
-.resume .func .skills-soft ul li svg {
-	width: 95%;
-	transform: rotate(-90deg);
-}
-.resume .func .skills-soft ul li svg circle {
-	stroke: #3d405a;
-}
-.resume .func .skills-soft ul li svg .cbar {
-	stroke-width: 3px;
-	stroke: /*#8d9e78;*/
-}
-.resume .func .skills-soft ul li span, .resume .func .skills-soft ul li small {
-	position: absolute;
-	width: 100%;
-	top: 52%;
-	transition-duration: 0.3s;
-}
-.resume .func .skills-soft ul li span {
-	top: 40%;
-}
+
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
